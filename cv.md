@@ -47,12 +47,11 @@ function multiply(a, b){
 
 ### Projects
 
-|**Not Fight Club**| [Link to repository](https://github.com/DaryaDudkova98/not-fight-club)|
---------------------------------------------------------------------------------------------
-|**Shelter**| [Link to repository](https://github.com/DaryaDudkova98/Shelter)|
---------------------------------------------------------------------------------------------
-|**js30-widgets**| [Link to repository](https://github.com/RSS-Js-FE-BootCamp/js30-widgets)|
---------------------------------------------------------------------------------------------
+| Project Name       | Link                                  |
+|--------------------|---------------------------------------|
+| **Not Fight Club** | [Link to repository](https://github.com/DaryaDudkova98/not-fight-club) |
+| **Shelter**        | [Link to repository](https://github.com/DaryaDudkova98/Shelter) |
+| **js30-widgets**   | [Link to repository](https://github.com/RSS-Js-FE-BootCamp/js30-widgets) |
 
 ---
 
