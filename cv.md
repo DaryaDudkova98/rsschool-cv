@@ -1,6 +1,6 @@
 # -DaryaDudkova98
 
-### :wave: Hello, I'm **Darya Dudkova**
+### 👋 Hello, I'm **Darya Dudkova**
 
 ---
 
