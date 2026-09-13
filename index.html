@@ -15,12 +15,12 @@
       <div class="container">
         <nav class="menu">
           <ul>
-            <li><a href="#">About me</a></li>
-            <li><a href="#">Education</a></li>
-            <li><a href="#">Experience</a></li>
-            <li><a href="#">Hard skills</a></li>
-            <li><a href="#">Languages</a></li>
-            <li><a href="#">Contacts</a></li>
+            <li><a href="#aboutMe">About me</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#hardSkills">Hard skills</a></li>
+            <li><a href="#languages">Languages</a></li>
+            <li><a href="#contacts">Contacts</a></li>
           </ul>
         </nav>
       </div>
@@ -40,7 +40,7 @@
           </div>
           <section class="contacts">
             <div class="wrapperSubTitle">
-                <h2 class="subTitle">Contacts</h2>
+                <h2 id="contacts" class="subTitle">Contacts</h2>
                 <span class="line1"></span>
                 <span class="line2"></span>
             </div>
@@ -101,7 +101,7 @@
           </section>
           <section class="languages">
             <div class="wrapperSubTitle">
-                <h2 class="subTitle">Languages</h2>
+                <h2 id="languages" class="subTitle">Languages</h2>
                 <span class="line1"></span>
                 <span class="line2"></span>
             </div>
@@ -121,11 +121,36 @@
               </li>
             </ul>
           </section>
+          <section class="exampleCode">
+          <div class="wrapperSubTitle">
+            <h2 id="exampleOdCode" class="subTitle">Example of code</h2>
+            <span class="line1"></span>
+            <span class="line2"></span>
+          </div>
+          <div class="sectionBox">
+            <div class="codeWindow">
+              <div class="codeWindowHeader">
+                <span class="codeWindowDot codeWindowDotRed"></span>
+                <span class="codeWindowDot codeWindowDotYellow"></span>
+                <span class="codeWindowDot codeWindowDotGreen"></span>
+                <span class="codeWindowFilename">sumTwoSmallest.js</span>
+              </div>
+              <pre class="codeWindowBody"><code><span class="codeKeyword">function</span> <span class="codeFunc">sumTwoSmallest</span>(numbers) {
+  <span class="codeKeyword">const</span> sorted = numbers.<span class="codeFunc">sort</span>((a, b) => a - b);
+  <span class="codeKeyword">return</span> sorted[<span class="codeNumber">0</span>] + sorted[<span class="codeNumber">1</span>];
+}
+<span class="codeFunc">console</span>.<span class="codeFunc">log</span>(<span class="codeFunc">sumTwoSmallest</span>([<span class="codeNumber">10</span>, <span class="codeNumber">343445</span>, <span class="codeNumber">345345</span>, <span class="codeNumber">1</span>])); <span class="codeComment">// 11</span></code></pre>
+            </div>
+              <p class="codeDescription">
+                Решение задачи с Codewars: нахождение суммы двух наименьших чисел в массиве.
+              </p>
+            </div>
+          </section>
         </div>
-        <div>
+        <div class="baseContent">
           <section class="aboutMe">
             <div class="wrapperSubTitle">
-              <h2 class="subTitle">About me</h2>
+              <h2 id="aboutMe" class="subTitle">About me</h2>
               <span class="line1"></span>
               <span class="line2"></span>
             </div>
@@ -141,9 +166,35 @@
               </p>
             </div>
           </section>
+          <section class="education">
+            <div class="wrapperSubTitle">
+              <h2 id="education" class="subTitle">Education</h2>
+              <span class="line1"></span>
+              <span class="line2"></span>
+            </div>
+            <div class="sectionBox">
+              <article class="educationItem">
+                <div class="educationHeader">
+                  <h3 class="educationTitle">Mogilev State University of Food Technologies</h3>
+                  <span class="educationPeriod">2015 — 2019</span>
+                </div>
+                <p class="educationDegree">
+                  Bachelor's degree in Accounting, Analysis and Audit in Industry
+                </p>
+                <p class="educationNote">Economist</p>
+              </article>
+              <article class="educationItem">
+              <div class="educationHeader">
+                <h3 class="educationTitle">The Rolling Scopes School</h3>
+                <span class="educationPeriod">Summer 2026</span>
+              </div>
+                <p class="educationDegree">JS / FE Summer Bootcamp 2026Q2</p>
+              </article>
+            </div>
+          </section>
           <section class="experience">
             <div class="wrapperSubTitle">
-                <h2 class="subTitle">Experience</h2>
+                <h2 id="experience" class="subTitle">Experience</h2>
                 <span class="line1"></span>
                 <span class="line2"></span>
             </div>
@@ -168,7 +219,7 @@
         </section>
         <section class="skills">
             <div class="wrapperSubTitle">
-                <h2 class="subTitle">Skills</h2>
+                <h2 id="hardSkills" class="subTitle">Hard skills</h2>
                 <span class="line1"></span>
                 <span class="line2"></span>
             </div>
@@ -228,31 +279,7 @@
             </div>
           </div>
         </section>
-        <section class="exampleCode">
-          <div class="wrapperSubTitle">
-            <h2 class="subTitle">Example of code</h2>
-            <span class="line1"></span>
-            <span class="line2"></span>
-          </div>
-          <div class="sectionBox">
-            <div class="codeWindow">
-              <div class="codeWindowHeader">
-                <span class="codeWindowDot codeWindowDotRed"></span>
-                <span class="codeWindowDot codeWindowDotYellow"></span>
-                <span class="codeWindowDot codeWindowDotGreen"></span>
-                <span class="codeWindowFilename">sumTwoSmallest.js</span>
-              </div>
-              <pre class="codeWindowBody"><code><span class="codeKeyword">function</span> <span class="codeFunc">sumTwoSmallest</span>(numbers) {
-  <span class="codeKeyword">const</span> sorted = numbers.<span class="codeFunc">sort</span>((a, b) => a - b);
-  <span class="codeKeyword">return</span> sorted[<span class="codeNumber">0</span>] + sorted[<span class="codeNumber">1</span>];
-}
-<span class="codeFunc">console</span>.<span class="codeFunc">log</span>(<span class="codeFunc">sumTwoSmallest</span>([<span class="codeNumber">10</span>, <span class="codeNumber">343445</span>, <span class="codeNumber">345345</span>, <span class="codeNumber">1</span>])); <span class="codeComment">// 11</span></code></pre>
-            </div>
-              <p class="codeDescription">
-                Решение задачи с Codewars: нахождение суммы двух наименьших чисел в массиве.
-              </p>
-            </div>
-          </section>
+        
         </div>
       </div>
     </main>
